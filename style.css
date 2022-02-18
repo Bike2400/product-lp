@@ -7,19 +7,70 @@ body{
 
 .top{
     background-color: #1f2937;
-    height: 500px;
+    height: 450px;
 }
 
 .top-header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 100px;
 }
+
+.top-middle{
+display: flex;
+margin: 100px 200px;
+height: 250px;
+gap:50px;
+}
+
 
 .left{
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.left-container{
+    width: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.img-container{
+    width: 450px;
+    height: 200px;
+    background-color: darkslategrey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.hero{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.normal-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 15px;
+}
+
+button.first{
+    padding: 12px 20px;
+    border-radius: 8px;
+    background:#3882F6 ;
+    color: white;
+}
+
+
+
+
+
 
 ul {
     /* this removes the dots on the list items*/
