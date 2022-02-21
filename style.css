@@ -123,6 +123,23 @@ button.first{
     font-size: large;
 }
 
+.action{
+    height: 200px;
+    margin: 100px 200px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    margin-top: auto;
+  padding: 20px;
+  color: #E5E7EB;
+}
+
 
 
 ul {
