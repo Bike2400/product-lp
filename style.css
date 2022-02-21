@@ -47,11 +47,17 @@ gap:50px;
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    color: white;
 }
 
 .hero{
     font-size: 48px;
     color: #F9FAF8;
+}
+
+img{
+    height: 200px;
+    width: 200px;
 }
 
 .normal-text{
@@ -68,6 +74,32 @@ button.first{
 }
 
 
+.middle-container{
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.middle-item{
+    max-width: 200px;
+}
+
+
+.illustration-block{
+    height: 150px;
+    border: 2px #3882F6 ;
+    width: 200px;
+}
+
+.random{
+    margin-top: 32px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 32px;
+}
 
 
 
