@@ -140,7 +140,44 @@ button.first{
   color: #E5E7EB;
 }
 
+.last-middle{
+    display: flex;
+    margin: 10px 100px;
+    gap: 100px;
+    padding: 20px;
+}
 
+.last-left{
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.call{
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+.sign{
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+button.second{
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+   
+}
+.b-container{
+    width: 250px;
+    height: 10px;
+    border: 1px #E5E7EB ;
+    
+    
+}
 
 ul {
     /* this removes the dots on the list items*/
